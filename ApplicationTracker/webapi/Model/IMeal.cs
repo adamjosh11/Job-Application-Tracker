@@ -1,8 +1,8 @@
 ﻿namespace webapi.Model
 {
-    public interface IMeal : IIngredient
+    public interface IMeal : IIngredientDetails
     {
-        List<IIngredient> Ingredients { get; }
+        List<IIngredientDetails> Ingredients { get; }
         string Description { get; }
         string CookingSteps { get; }
     }
